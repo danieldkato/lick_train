@@ -1,7 +1,7 @@
 // Dispenses water every time a lick is detected. 
 // DDK 2019-07-30
 
-const int solenoid_pin = 3;
+const int solenoid_pin = 4;
 const int lick_detector_pin = A1;
 const int thresh = 900;
 const int valve_open_time = 10; // in milliseconds
